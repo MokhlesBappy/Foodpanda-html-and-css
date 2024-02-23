@@ -1,0 +1,99 @@
+.singn{text-decoration: none; color: rgb(255, 255, 255);}
+
+
+.addheading{
+    margin: 0 40px;
+}
+
+
+
+.signuphead:hover{
+    color: #DD7DA6;
+    background-color: rgb(129, 9, 59);
+}
+
+
+.loginm:hover{
+background-color: rgb(240, 230, 232);
+
+}
+
+.clo{background-color: #E21B70;}
+
+.clo:hover{
+background-color: rgb(143, 23, 63);
+}
+
+.usericon{display: none;  margin-left: 15px;}
+
+.bg{background-color: #F7F7F7;}
+
+.hero{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    /* text-align: center; */
+    /* align-content: center; */
+    /* margin-top: -10px; */
+    
+}
+
+.hero1{
+    margin-top: 200px;
+    text-align: center;
+}
+ 
+.hero2{
+   float: right;
+   margin-top: 20px;
+   width: 100%;
+   
+
+}
+
+.findfood:hover{
+background-color: #DD7DA6;
+}
+
+a{text-decoration: none;}
+
+.tttt2{
+    font-size: xx-large;
+}
+
+.store22{display: none;}
+
+.paragraph{box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.2); background-color:white; margin-top: -12%; height: 60%; width: 40%; position: absolute; border-radius: 20px; padding: 2%; margin-left: 4%; color: rgb(70, 62, 62); font-size: large;}
+.getst{
+    color: white;
+    background-color: #E21B70;
+    padding: 10px;
+    border-radius: 6px;
+    
+}
+@media screen and (max-width: 599px) {
+    .bagimg{display: none;}
+    .addheading{margin-left: 8px; margin-right: -23px;}
+    .signuphead{margin-right: 10px;}
+    .noview{display: none;}
+    /* .nav{display: flex;} */
+    .usericon{display: block;}
+    .hero1{
+        margin-top: 0px;
+        margin-left: 3px;
+        text-align: center;
+        font-size: small;   
+    }
+
+    .tttt2{font-size: x-large;}
+    
+    .store{display: none;}
+
+    .store22{display: block;}
+
+    .paragraph{
+        width: 88%;
+    }
+
+    
+    
+}
