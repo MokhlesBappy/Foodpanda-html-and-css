@@ -70,6 +70,97 @@ a{text-decoration: none;}
     border-radius: 6px;
     
 }
+
+
+.imageGallery{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px 20px;
+}
+
+.dhaka{
+    background-image: url(https://images.deliveryhero.io/image/fd-bd/city-title/city-title-Dhaka.jpg);
+    background-size: cover;
+    width: 310px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+
+.gapforjela{
+    height: 68%;
+    padding-left: 20px;
+}
+
+.gelaname{
+margin-left: 10px;
+padding: 8px;
+background-color: white;
+border-radius: 10px;
+}
+
+
+.apps{
+    background-color: #E21B70;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    
+    width: 97%;
+}
+
+
+.country{
+    margin: 30px;
+    display: flex;
+    margin-top: 70px;
+    width: 70%;
+    
+}
+
+
+.cnt{
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+
+.cnt:hover{
+    color: #E21B70;
+}
+
+
+.fotter{
+    display: flex;
+    margin: 30px;
+    /* gap: 100px; */
+    width: 95%;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: #E21B70;
+}
+
+.cp{
+    color: #E21B70;
+    font-size: x-large;
+}
+
+.fl{
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+}
+
+
+.appimg{width: 600px;}
+
+.appara{
+    width: 400px;
+}
+
+
 @media screen and (max-width: 599px) {
     .bagimg{display: none;}
     .addheading{margin-left: 8px; margin-right: -23px;}
@@ -93,7 +184,94 @@ a{text-decoration: none;}
     .paragraph{
         width: 88%;
     }
+   .imageGallery{
+    grid-template-columns: auto;
+   }
+   .apps{
+    display: grid;
+    width: 90%;
+   } 
+    .appimg{width: 300px;
+    justify-content: center;
+    align-items: center;
+    }
 
-    
-    
+    .country{
+        display: grid;
+        gap: 8PX;
+        justify-content: center;
+        border-right: none;
+    }
+
+    .fotter{
+        display: grid;
+    }
+
+    .fl{
+        display: grid;
+        gap: 9PX;
+    }
+
+    .applink{
+        display: grid;
+    }
+
+    .appara{
+        width: 160px;
+        margin-left: 9px;
+    }
+    .paragraph{height: 83%}
+}
+
+@media screen and (width: 768px){
+    .imageGallery{
+        grid-template-columns: auto auto;
+       }
+
+       .appara{
+        width: 160px;
+        margin-left: 9px;
+    }
+
+    .applink{
+        display: grid;
+    }
+
+    .apps{
+        display: grid;
+        width: 90%;
+       } 
+        .appimg{width: 300px;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .paragraph{height: 83%}
+}
+
+
+@media screen and (width: 1024px){
+    .imageGallery{
+        grid-template-columns: auto auto auto;
+       }
+
+       .appara{
+        width: 160px;
+        margin-left: 9px;
+    }
+
+    .applink{
+        display: grid;
+    }
+
+    .apps{
+        display: grid;
+        width: 90%;
+       } 
+        .appimg{width: 300px;
+        justify-content: center;
+        align-items: center;
+        }
+
+        .paragraph{height: 83%}
 }
